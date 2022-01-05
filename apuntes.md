@@ -311,6 +311,20 @@ Segun lo que dice es decision nuestra como queremos devolverle al usuario el con
 
 ## Creando un repositorio en Github
 
+Lo subimos al repositorio.
+Para esto primero vamos a Github y hacemos lo siguiente:
+
+- Vamos a *settings*.
+- Ponemos en *Developer Settings*.
+- Ahora *Personal Access Tokens*.
+- Luego creamos un nuevo Access Token.
+- Podemos poner en *note* le nombre de nuestra compu.
+- *No Expiration*.
+- Seleccionar todas las casillas dentro de *repo*.
+- OK
+
+Copiamos el *access token* generado y nos vamos a crear un repositorio comun y corriente.
+> Debemos tener presionado el `HTTPS` al momento de clonar, ya que el *access token* que generamos solo servira en este.
 
 
 ## Despliegue en Vercel
