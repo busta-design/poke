@@ -332,4 +332,7 @@ Hacemos el proceso para subir desde nuestro repositorio y hay una parte que nos 
 
 ## Despliegue en Vercel
 
-Buscamos *vercel.com* 
+Buscamos *vercel.com*. Nos registramos y damos siguientes.
+> En el curso vemos que al hacer un building hay un error causado por el *.eslint*, la forma de solucionarlo es borrando este archivo o agregando la excepcion para el *.babelrc*.
+
+Para actualizar simplemente tienes que hacer un push al proycto, este hara un build solo.

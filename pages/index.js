@@ -10,7 +10,7 @@ const Pokemon = ({pokemon}) => {
 export default function Home({pokemones}) {
   return (
     <div>
-      <p>Pokemones</p>
+      <p>Mis Pokemones Amigos</p>
       <ul>
         {pokemones.map(pokemon => <Pokemon pokemon={pokemon} key={pokemon.name} />)}
       </ul>
