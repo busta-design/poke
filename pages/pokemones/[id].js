@@ -1,10 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import {useRouter} from 'next/router'
+// import {useRouter} from 'next/router'
 
 const Pokemon = ({data}) =>{
-  const router = useRouter()
-  console.log(router)
+  // const router = useRouter()
   // if (router.isFallback) return <p>Cargando...</p>
 
   return (
@@ -32,7 +31,7 @@ export const getStaticPaths = async () => {
 
   return {
     paths,
-    fallback: true
+    fallback: 'blocking'
   }
 }
 // export const getServerSideProps = async ({params}) => {

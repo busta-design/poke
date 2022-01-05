@@ -326,5 +326,10 @@ Para esto primero vamos a Github y hacemos lo siguiente:
 Copiamos el *access token* generado y nos vamos a crear un repositorio comun y corriente.
 > Debemos tener presionado el `HTTPS` al momento de clonar, ya que el *access token* que generamos solo servira en este.
 
+Hacemos el proceso para subir desde nuestro repositorio y hay una parte que nos pide *browser device* o *token*. Nosotros ponemos e token que copiamos y recien nos dejara subir el proyecto.
+
+> El token desaparece una vez salgas de la pagina, procura crearlo cuando todo este listo.
 
 ## Despliegue en Vercel
+
+Buscamos *vercel.com* 
